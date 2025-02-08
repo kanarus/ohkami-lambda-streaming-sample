@@ -4,7 +4,7 @@ use ohkami::sse::DataStream;
 #[tokio::main]
 async fn main() -> Result<(), lambda_runtime::Error> {
     let o = Ohkami::new((
-        "/".GET(streaming_hello),
+        "/:name".GET(streaming_hello),
     ));
 
     lambda_runtime::run(o).await
