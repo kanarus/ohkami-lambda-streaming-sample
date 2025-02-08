@@ -3,7 +3,7 @@
 ## Note
 
 - Check `"sse"` is in `dependencies.ohkami`'s `features`
-- Set deploied Lambda's **Invoke Mode to `RESPONSE_STREAM`**
+- Set deployed Lambda's **Invoke Mode to `RESPONSE_STREAM`**
 
 ## Endpoints
 
