@@ -7,6 +7,7 @@
 
 ## Endpoints
 
+- `GET /` : Streaming `Hello, world`
 - `GET /:name` : Streaming hello message for the `name`
 
 ---
